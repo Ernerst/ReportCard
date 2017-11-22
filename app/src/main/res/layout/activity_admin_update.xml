@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueone"
+    tools:context="com.codetribe.reportcard.AdminUpdate">
+
+    <EditText
+        android:id="@+id/edtsearchStud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="@string/hintStudentNo"
+        android:inputType="number"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <Button
+        android:id="@+id/btnfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edtsearchStud"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/edtsearchStud"
+        android:layout_toRightOf="@+id/edtsearchStud"
+        android:text="Find" />
+
+    <TextView
+        android:id="@+id/txtsub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="SUB1"
+        android:layout_below="@+id/edtsearchStud"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edtsub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtsub1"
+        android:layout_alignEnd="@+id/btnfind"
+        android:layout_alignRight="@+id/btnfind"
+        android:enabled="false"
+        android:ems="10"
+        android:hint="@string/hintMark"
+        android:inputType="number"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtsubject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtsub1"
+        android:layout_marginTop="36dp"
+        android:text="SUB2" />
+
+    <TextView
+        android:id="@+id/txtsubject3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtsubject2"
+        android:layout_marginTop="33dp"
+        android:text="SUB3" />
+
+    <TextView
+        android:id="@+id/txtsub4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUB4"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtsubject3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtsu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtsub4"
+        android:layout_marginTop="35dp"
+        android:text="SUB5" />
+
+    <TextView
+        android:id="@+id/txtsu6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtsu5"
+        android:layout_marginTop="35dp"
+        android:text="SUB6" />
+
+    <EditText
+        android:id="@+id/edtsub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtsubject3"
+        android:layout_alignLeft="@+id/edtsub1"
+        android:layout_alignStart="@+id/edtsub1"
+        android:ems="10"
+        android:hint="@string/hintMark"
+        android:inputType="number"
+        android:enabled="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtsub3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtsub4"
+        android:layout_alignLeft="@+id/edtsub2"
+        android:layout_alignStart="@+id/edtsub2"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="@string/hintMark"
+        android:inputType="number"
+        android:enabled="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtsub4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtsub4"
+        android:layout_alignBottom="@+id/txtsub4"
+        android:layout_alignLeft="@+id/edtsub3"
+        android:layout_alignStart="@+id/edtsub3"
+        android:ems="10"
+        android:hint="@string/hintMark"
+        android:inputType="number"
+        android:enabled="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtsub5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtsub6"
+        android:layout_alignLeft="@+id/edtsub4"
+        android:layout_alignStart="@+id/edtsub4"
+        android:ems="10"
+        android:hint="@string/hintMark"
+        android:inputType="number"
+        android:enabled="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/edtsub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintMark"
+        android:inputType="number"
+        android:enabled="false"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/txtsu6"
+        android:layout_alignBottom="@+id/txtsu6"
+        android:layout_alignLeft="@+id/edtsub5"
+        android:layout_alignStart="@+id/edtsub5" />
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_toLeftOf="@+id/edtsub6"
+        android:text="View All" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_alignBaseline="@+id/btnViewAll"
+        android:layout_alignBottom="@+id/btnViewAll"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnRegisterStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnupdate"
+        android:layout_alignEnd="@+id/edtsub6"
+        android:layout_alignRight="@+id/edtsub6"
+        android:text="Register" />
+</RelativeLayout>

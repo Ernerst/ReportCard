@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueone"
+    tools:context="com.codetribe.reportcard.SignUp">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="55dp"
+        android:text="Register"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Surname and Initials"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="24dp"
+        android:text="Student Number" />
+
+
+    <EditText
+        android:id="@+id/edtregSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_above="@+id/edtregStudentNo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/edtregStudentNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/edtregSurname"
+        android:layout_alignStart="@+id/edtregSurname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtregsub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/hintSub1"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtregStudentNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/edtregsub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="@string/hintSubject2"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtregsub1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtregsub1"
+        android:layout_alignEnd="@+id/edtregsub1" />
+
+    <EditText
+        android:id="@+id/edtregsub3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/hintSuject3"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtregsub2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtregsub2"
+        android:layout_alignEnd="@+id/edtregsub2" />
+
+    <EditText
+        android:id="@+id/edtregsub4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintSubject4"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtregsub3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtregsub3"
+        android:layout_alignEnd="@+id/edtregsub3" />
+
+    <EditText
+        android:id="@+id/edtregsub5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hintSubject6"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:layout_below="@+id/edtregsub4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtregsub4"
+        android:layout_alignEnd="@+id/edtregsub4" />
+
+    <EditText
+        android:id="@+id/edtregsub6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtregsub5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtregsub5"
+        android:layout_below="@+id/edtregsub5"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="@string/hintsubject6"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <Button
+        android:id="@+id/btnSubmitreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignEnd="@+id/edtregSurname"
+        android:layout_alignRight="@+id/edtregSurname"
+        android:text="Submit" />
+
+
+</RelativeLayout>

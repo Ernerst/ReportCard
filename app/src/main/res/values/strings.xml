@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Report Card</string>
+    <string name="hintUsername">USERNAME</string>
+    <string name="hintpass">PASSWORD</string>
+    <string name="hintStudentNo">Student number</string>
+    <string name="hintMark">mark(%)</string>
+    <string name="hintSub1">Subject 1</string>
+    <string name="hintSubject2">Subject 2</string>
+    <string name="hintSuject3">Subject 3</string>
+    <string name="hintSubject4">Subject 4</string>
+    <string name="hintSubject6">Subject 6</string>
+    <string name="hintsubject6">Subject 6</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueone"
+    tools:context="com.codetribe.reportcard.StudentSignUp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:text="Student Number"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="63dp"
+        android:text="New Password" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comfirm password"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/edtStudNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtPassWs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/edtStudNos"
+        android:layout_alignStart="@+id/edtStudNos"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <EditText
+        android:id="@+id/edtPassCo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignLeft="@+id/edtPassWs"
+        android:layout_alignStart="@+id/edtPassWs"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <Button
+        android:id="@+id/btnSubmitPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edtPassCo"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignRight="@+id/edtPassCo"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/edtPassCo"
+        android:layout_marginTop="48dp"
+        android:text="SUBMIT" />
+</RelativeLayout>

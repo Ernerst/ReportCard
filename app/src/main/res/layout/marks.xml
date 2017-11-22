@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/blueone"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Class Test1"
+        android:id="@+id/textView30"
+        android:layout_alignBaseline="@+id/classTest1"
+        android:layout_alignBottom="@+id/classTest1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/classTest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/classTest1"
+        android:layout_marginTop="15dp"
+        android:text="Semester Test2" />
+
+    <EditText
+        android:id="@+id/semesterTest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/classTest1"
+        android:layout_alignStart="@+id/classTest1"
+        android:layout_below="@+id/classTest1"
+        android:ems="10"
+        android:inputType="number"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/semesterTest1"
+        android:layout_marginTop="18dp"
+        android:text="Class Test2" />
+
+    <EditText
+        android:id="@+id/classtest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/semesterTest1"
+        android:layout_alignRight="@+id/semesterTest1"
+        android:layout_below="@+id/semesterTest1"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:inputType="number"
+        android:theme="@android:style/Theme.NoTitleBar" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/classtest2"
+        android:layout_marginTop="18dp"
+        android:text="Semster Test2" />
+
+    <EditText
+        android:id="@+id/semesterTest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/classtest2"
+        android:layout_alignStart="@+id/classtest2"
+        android:layout_below="@+id/classtest2"
+        android:ems="10"
+        android:inputType="number"
+        android:theme="@android:style/Theme.NoTitleBar" />
+</RelativeLayout>

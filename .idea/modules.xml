@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\eKasiLab Alex CDTB\Downloads\ReportCard-master (1)\ReportCard-master\ReportCard.iml" filepath="C:\Users\eKasiLab Alex CDTB\Downloads\ReportCard-master (1)\ReportCard-master\ReportCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReportCard-master.iml" filepath="$PROJECT_DIR$/ReportCard-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\eKasiLab Alex CDTB\Downloads\ReportCard-master (1)\ReportCard-master\app\app.iml" filepath="C:\Users\eKasiLab Alex CDTB\Downloads\ReportCard-master (1)\ReportCard-master\app\app.iml" />
+    </modules>
+  </component>
+</project>
